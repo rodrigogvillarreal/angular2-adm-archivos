@@ -5,11 +5,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListaDeArchivosComponent } from './lista-de-archivos/lista-de-archivos.component';
+import { ItemArchivoComponent } from './item-archivo/item-archivo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListaDeArchivosComponent
+    ListaDeArchivosComponent,
+    ItemArchivoComponent
   ],
   imports: [
     BrowserModule,
